@@ -1,0 +1,4 @@
+## ANJ GK TAU GW COK MAU NGAPAIN>:(
+©FaizMemek:<
+Wa ; 0853-8305-6042
+Wa bot : 0821-9906-0813
