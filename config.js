@@ -22,7 +22,7 @@ global.sig = "https://Instagram.com/@BelumAdaIg"
 global.myweb = "https://s.id/FaizAplha"
 global.footer_text = "© FaizRealz"
 global.owner = ['6285383056042,6282240260658']
-global.gifin = "/media/image/gif.mp4"
+global.gifin = "/media/image/Menu.mp4"
 global.thumb = "/media/image/thumb.png"
 global.thumb2 = "/media/image/thumb2.png"
 global.mark = "https://telegra.ph/file/9b67cb5ed0ff661027366.jpg"
@@ -38,7 +38,7 @@ global.lakiapacewek = "Cowok🐉" // Terserah
 //=== Payment 😋
 global.qris = "Belum Ada🥺"
 global.pulsa = "0853-8305-6042"
-global.dana = "0838-3140-9855"
+global.dana = "0853-8305-6042"
 global.gopay = "0853-8305-6042"
 global.rek = "Gaada"
 
