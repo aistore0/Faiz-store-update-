@@ -8,7 +8,7 @@ const axios = require('axios');
 // Ori : @callmevinz
 
 //=== Edit Disini 🔥
-global.namabot =  "FaizAlpha(Ai on)"
+global.namabot =  "Nama bot : FaizAlpha Status :"
 global.namaowner = "Faiz Store"
 global.packname = "Sticker by"
 global.creator = "Faiz"
@@ -21,7 +21,7 @@ global.email = "faisgaming131@gmail.com"
 global.sig = "https://Instagram.com/@BelumAdaIg"
 global.myweb = "https://s.id/FaizAplha"
 global.footer_text = "© FaizRealz"
-global.owner = ['6285383056042,6282240260658']
+global.owner = ['6285383056042']
 global.gifin = "https://telegra.ph/file/0cf1c5039a2be1b66ef15.mp4"
 global.thumb = "/media/image/thumb.png"
 global.thumb2 = "/media/image/thumb2.png"
