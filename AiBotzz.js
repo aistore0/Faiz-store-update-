@@ -498,7 +498,7 @@ async function Telesticker(url) {
             data2 = await axios(`https://api.telegram.org/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/getFile?file_id=${fileId}`)
             result = {
             status: 200,
-            author: 'DGXeon',
+            author: 'Fquz Realz',
             url: "https://api.telegram.org/file/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/" + data2.data.result.file_path
             }
             al.result.push(result)
@@ -700,15 +700,15 @@ let isChat = m.mtype
 
 async function loading () {
 var nedd = [
-"*[ 🕛 ]*  ▅",
-"*[ 🕑 ]*  ▅▆",
-"*[ 🕓 ]*  ▅▆▇",
-"*[ 🕕 ]*  ▅▆▇█",
-"*[ 🕗 ]*  ▅▆▇█▉",
-"*[ 🕙 ]*  ▅▆▇███",
-"*[ 🕛 ]*  ▅▆▇███▉"
+"𓆝",
+"𓆟",
+"𓆞",
+"𓆝",
+"𓆟",
+"𓆝",
+"𓆟"
 ]
-let { key } = await Al.sendMessage(m.chat, {text: 'Loading...'}, {quoted: m})
+let { key } = await Al.sendMessage(m.chat, {text: 'Sebentar'}, {quoted: m})
 
 for (let i = 0; i < nedd.length; i++) {
 /*await delay(20)*/
@@ -1223,7 +1223,7 @@ participant: m.key.participant
 
 // Respon (Sesuaikan saja)
 if (isResponx) {
-if (budy.match('jay|@Mark|@6289654057716|@6283819597833|Mark|6283819597833|6289654057716|mark|@mark|jayy|Jayy|Jay')) {
+if (budy.match('Fai'@Faiz|@6285383056042|@6282240260658|Faiz1|6285383056042|6282199060813|Faiz|Faiz1|Faiz|Faiz| Fai)) {
 await Al.sendMessage(m.chat, {sticker: fs.readFileSync('./media/sticker/bejir.webp')}, {quoted: m})
 }
 }
@@ -1830,7 +1830,7 @@ forwardingScore: 500,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "VIEW CHANNEL",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "1203630@newsletter",
 		},
 		externalAdReply: {  
 title: `ᴀɪ ʙᴏᴛᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`, 
@@ -1851,7 +1851,7 @@ forwardingScore: 999,
 isForwarded: false,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "FAIZALPHA| BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "120594848@newsletter",
 		},
 		externalAdReply: {  
 title: `© FaizBotz-MD`, 
@@ -1910,7 +1910,7 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"CHAT OWNER\",\"url\":\"https://wa.me/+6289654057716?text=Halo+Bang\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"CHAT OWNER\",\"url\":\"https://wa.me/+6285383056042?text=Halo+Bang\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -2016,9 +2016,9 @@ let capt = `
        *❏  SERVER  INFO*
 ╭──────────────────────┈
 ⌬︱ *ᴘʟᴀᴛғᴏʀᴍ* : Vivo Y21
-⌬︱ *ʟɪʙʀᴀʀʏ* : Nothing
+⌬︱ *ʟɪʙʀᴀʀʏ* : Ram 5(128GB)
 ⌬︱ *ᴘʀᴇғɪx* : Multi Prefix
-⌬︱ *ᴠᴇʀꜱɪ* : 1.1 Fix
+⌬︱ *ᴠᴇʀꜱɪ* : 1.2 Fix
 ╰──────────────────────┈
 
   *ɴ ᴏ ᴛ ᴇ :*
@@ -2107,7 +2107,7 @@ let capt = `
  ╵
 
  ╶──────────────────────•∘
-  *〈 ❏ 〉  ＤＯＮＬＯＤ  ＭＥＮＵ*
+  *〈 ❏ 〉  ＤＯＮＬＯＴ  ＭＥＮＵ*
  ┌──────────────────────•∘
  │ ィ•  ${prefix}play
  │ ィ•  ${prefix}ytmp4
@@ -3062,7 +3062,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "VIEW CHANNEL",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "120363267@newsletter",
 		},
 		externalAdReply: {  
 title: `ᴀɪ ʙᴏᴛᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`, 
@@ -3084,7 +3084,7 @@ forwardingScore: 500,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "VIEW CHANNEL",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "12036326@newsletter",
 		},
 		externalAdReply: {  
 title: `ᴀɪ.ʙᴏᴛᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`, 
@@ -3148,7 +3148,7 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"CHAT OWNER\",\"url\":\"https://wa.me/+6289654057716?text=Halo+Bang\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"CHAT OWNER\",\"url\":\"https://wa.me/+6285383056042?text=Halo+Bang\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -3282,7 +3282,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "12036326@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -3365,7 +3365,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "1203632670@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -3415,7 +3415,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "120363230@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -3463,7 +3463,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "120369530@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -3527,7 +3527,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "1203632630@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -3568,7 +3568,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "120363260@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -3605,7 +3605,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "12036320@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -3643,7 +3643,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "1289530@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -3696,7 +3696,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "120363230@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -3744,7 +3744,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "1203632630@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -3803,7 +3803,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "120363230@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -3854,7 +3854,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "120360@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -3899,7 +3899,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "12036388@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -3953,7 +3953,7 @@ break
           messageId: response.key.id,
         });
         await Al.sendMessage(from, {text:
-            `*SEDIKIT INFO*\n\n*Creator :* Sanjaya\n*Dibuat :* 24 Mar, 2024\n*Total Fitur :* 1200+ Command\n*Harga :* Gak Dijual\n\nMau Script Di Atas? Chat Owner Gw Aja Langsung\n\n© ${global.wm} | ${tahun}`}, {quoted: m})
+            `*SEDIKIT INFO*\n\n*Creator :* Sanjaya\n*Dibuat :* 24 Mar, 2024\n*Total Fitur :* 1200+ Command\n*Harga :* Dijual\n\nMau Script Di Atas? Chat Owner Gw Aja Langsung\n\n© ${global.wm} | ${tahun}`}, {quoted: m})
         break;
 //========================
 case 'mainmenu':{
@@ -3989,7 +3989,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "1203639530@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -4109,7 +4109,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "120363267730@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -4164,7 +4164,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "1209530@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -4217,7 +4217,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "120369530@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -4262,7 +4262,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "1209530@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -4348,7 +4348,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "120360@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -4438,7 +4438,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "1203530@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -4473,7 +4473,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "12036330@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -4523,7 +4523,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "12030@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -4558,7 +4558,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "129530@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -4752,7 +4752,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "1209530@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -4813,7 +4813,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "120363530@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -4858,7 +4858,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "189530@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -4912,7 +4912,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "1203632630@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -4958,7 +4958,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "12036330@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -4997,7 +4997,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "1203632@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -5042,7 +5042,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "1203630@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -5111,7 +5111,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "120363230@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -5161,7 +5161,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "120530@newsletter",
 		},
 		externalAdReply: {  
 title: `© AiBotzz-MD`, 
@@ -5337,16 +5337,13 @@ if (isBan) return terbanned()
 let tqto = `
 *🍪  THANKS TO  🍪*
 
-• Alvin
-• Akhtar
-• Kenzo
+• my mom
+• Allah
+• Faiz
 • And I'm Alone
 
 Ini Lebih Tepat Nya Orang Yang Ngasih
 Tips Ke Gw Dan Bantuan Ke Gw
-
-Mau Masuk Ke Tqto Ini Ya 
-Bantu Gw Lah, Wkwk
 `
 Al.sendMessage(m.chat, {image: {url: 'https://telegra.ph/file/0968f96ff14d46e8ecc37.jpg'}, caption: tqto}, {quoted: m})
 }
@@ -5390,13 +5387,13 @@ forwardingScore: 999,
 isForwarded: false,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "AIBOTZZ-MD | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "1203632530@newsletter",
 		},
 		externalAdReply: { 
 title: `${sopanDong}`,
 body: `${pushname}`,
 thumbnailUrl: global.mark,
-sourceUrl: `https://www.youtube.com/@SanjayaAds`,
+sourceUrl: `https://www.youtube.com/@Faiz1123`,
 mediaType: 1,
 renderLargerThumbnail: false
 }}}, { quoted: memek})
@@ -5454,7 +5451,7 @@ externalAdReply: {
 title: ``,
 body: 'アルヴィン',
 thumbnailUrl: global.thumb,
-sourceUrl: `https://www.youtube.com/@SanjayaAds`,
+sourceUrl: `https://www.youtube.com/@Faiz1123`,
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: floc})
@@ -5778,7 +5775,7 @@ m.reply(teks)
 limitAdd(m.sender, limit)
 break
 case 'ai': case 'openai': {
-                if (!q) return m.reply(`*Mau Nanya Naon Sia..?*`)
+                if (!q) return m.reply(`*Mau Nanya Sapa.?*`)
                 m.reply('_Loading..._')
                   var jay = await fetchJson(`https://aemt.me/openai?text=${q}`)
                   var jaya = jay.result

@@ -15,16 +15,16 @@ global.creator = "Faiz"
 global.author = "FaizAplha(Fitur ai on)\n\nBot WhatsApp"
 global.wm = "FaizNime"
 global.syt = "https://www.youtube.com/@Faiz1123"
-global.sgc = "https://chat.whatsapp.com/BhLOaPSL3SKCw9QAnudL3w"
-global.idgc = "12036325305833522@g.us"
+global.sgc = "https://chat.whatsapp.com/Ihtr1Erg0rFL6plH6Df2bO"
+global.idgc = "120363253058274@g.us"
 global.email = "faisgaming131@gmail.com"
 global.sig = "https://Instagram.com/@BelumAdaIg"
 global.myweb = "https://s.id/FaizAplha"
 global.footer_text = "© FaizRealz"
-global.owner = ['6285383056042']
-global.gifin = "https://telegra.ph/file/0cf1c5039a2be1b66ef15.mp4"
-global.thumb = "/media/image/thumb.png"
-global.thumb2 = "/media/image/thumb2.png"
+global.owner = ['6285383056042','6282240260658']
+global.gifin = "https://telegra.ph/file/261d60e0219baafe472a6.mp4"
+global.thumb = "https://telegra.ph/file/5e268680f14113ef3271c.jpg"
+global.thumb2 = "https://telegra.ph/file/323348b8197c1d2b6852f.jpg"
 global.mark = "https://telegra.ph/file/9b67cb5ed0ff661027366.jpg"
 global.themeemoji = '🌐'
 
@@ -107,8 +107,8 @@ global.mess = {
 // Setting Game
 global.gamewaktu = 60 // Game waktu
 global.bmin = 1000 // Balance minimal 
-global.bmax = 10000 // Balance maksimal
-global.limit = 500 // Limit user
+global.bmax = 5000 // Balance maksimal
+global.limit = 100 // Limit user
 
 // Database Game
 global.suit = {};
