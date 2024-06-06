@@ -1223,7 +1223,7 @@ participant: m.key.participant
 
 // Respon (Sesuaikan saja)
 if (isResponx) {
-if (budy.match('Fai'@Faiz|@6285383056042|@6282240260658|Faiz1|6285383056042|6282199060813|Faiz|Faiz1|Faiz|Faiz| Fai)) {
+if (budy.match('Fai|@Faiz|@6285383056042|@6282240260658|Faiz1|6285383056042|6282199060813|Faiz|Faiz1|Faiz|Faiz| Fai')) {
 await Al.sendMessage(m.chat, {sticker: fs.readFileSync('./media/sticker/bejir.webp')}, {quoted: m})
 }
 }
