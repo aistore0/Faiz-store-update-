@@ -4,26 +4,26 @@ const axios = require('axios');
 
 // INGAT CUY INI CUMA SC HASIL RENAME ATAU RECODE YA
 
-// Credit : @theJayy_
-// Ori : @callmevinz
+// Credit : @Faiz
+// Ori : @zeeoneofc
 
 //=== Edit Disini 🔥
-global.namabot =  "Nama bot : FaizAlpha Status :"
+global.namabot =  "FaizAlpha"
 global.namaowner = "Faiz Store"
-global.packname = "Sticker by"
+global.packname = "Sticker oleh"
 global.creator = "Faiz"
 global.author = "FaizAplha(Fitur ai on)\n\nBot WhatsApp"
 global.wm = "FaizNime"
-global.syt = "https://www.youtube.com/@Faiz1123"
+global.syt = "https://www.youtube.com/c/@Faiz1123"
 global.sgc = "https://chat.whatsapp.com/Ihtr1Erg0rFL6plH6Df2bO"
-global.idgc = "120363253058274@g.us"
+global.idgc = "12036325@g.us"
 global.email = "faisgaming131@gmail.com"
 global.sig = "https://Instagram.com/@BelumAdaIg"
-global.myweb = "https://s.id/FaizAplha"
+global.myweb = "https://s.id/FaizAlpha"
 global.footer_text = "© FaizRealz"
-global.owner = ['6285383056042','6282240260658']
+global.owner = ['6285383056042']
 global.gifin = "https://telegra.ph/file/261d60e0219baafe472a6.mp4"
-global.thumb = "https://telegra.ph/file/5e268680f14113ef3271c.jpg"
+global.thumb = "https://telegra.ph/file/bcc3eb40ecbb898fa88d1.jpg"
 global.thumb2 = "https://telegra.ph/file/323348b8197c1d2b6852f.jpg"
 global.mark = "https://telegra.ph/file/9b67cb5ed0ff661027366.jpg"
 global.themeemoji = '🌐'
@@ -36,7 +36,7 @@ global.lakiapacewek = "Cowok🐉" // Terserah
 // Kalo mau gak diisi juga gak papa
 
 //=== Payment 😋
-global.qris = "Belum Ada🥺"
+global.qris = "1"
 global.pulsa = "0853-8305-6042"
 global.dana = "0853-8305-6042"
 global.gopay = "0853-8305-6042"
@@ -66,7 +66,7 @@ global.prefix = ['-_-']
 // Jangan diubah
 global.tekspushcontact = "Izin Push" 
 // Terserah
-global.typemenu = "v6"
+global.typemenu = "v1"
 // Ini type menu nya
 // v1 - v2 - v3 - v4 - v5 - v6
 global.typeallmenu = "v1"
@@ -90,7 +90,7 @@ global.pengingat = true
 // False (Nonaktifin)
 global.autoTyping = true
 // False (Nonaktifin)
-global.autoBio = true
+global.autoBio = false
 // False (Nonaktifin)
 global.autoRestart = false
 // False (Nonaktifin)
@@ -99,7 +99,7 @@ global.mess = {
  done: 'Done!',
  wait: 'bntar',
  admin: 'Fitur Khusus Admin group🐉!',
- botNotAdmin: 'gw jadi admin group di group🐉💔',
+ botNotAdmin: 'gw blum jadi admin group di group🐉💔',
  owner: 'Fitur Khusus Owner😏',
  group: 'Fitur Khusus Group🗿!',
 }

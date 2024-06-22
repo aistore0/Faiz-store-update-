@@ -278,12 +278,12 @@ if (!isCreator && !m.key.fromMe) return
 }
 //===========================================
 
-const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `6285600793871-1614953337@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `${pushname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': global.thumb, thumbnail: global.thumb,sendEphemeral: true}}}
+const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `6285383056042-1614953337@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `${pushname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': global.thumb, thumbnail: global.thumb,sendEphemeral: true}}}
 const memek = { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { itemCount: 1000000000, status: 1, thumbnail: await Al.reSize(await getBuffer('https://telegra.ph/file/84b3a5f3286d8cf15a696.jpg'),300,150), surface: 1, message: 'ᴀɪʙᴏᴛᴢᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ', orderTitle: ``, sellerJid: '0@s.whatsapp.net' } } }
 const fpay = { key: { remoteJid: '0@s.whatsapp.net', fromMe: false, id:global.namabot, participant: '0@s.whatsapp.net'}, message: { requestPaymentMessage: { currencyCodeIso4217: "IDR", amount1000: 999999999, requestFrom: '0@s.whatsapp.net', noteMessage: { extendedTextMessage: { text: 'ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ\nɴᴀᴍᴀ : ᴀɪʙᴏᴛᴢᴢ\nsᴛᴀᴛᴜs : ᴏɴʟɪɴᴇ'}}, expiryTimestamp: 999999999, amount: { value: 91929291929, offset: 1000, currencyCode: "IDR"}}}}
 const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "status@broadcast"}, "message": {orderMessage: {itemCount: 20000,status: 200, thumbnailUrl: thumb, surface: 200, message: namabot, orderTitle: namaowner, sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded": false},sendEphemeral: true}
 const fdoc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {documentMessage: {title: namabot,thumbnailUrl: global.thumb}}}
-const floc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: `ᴀɪʙᴏᴛᴢᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`,thumbnailUrl: global.thumb}}}
+const floc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: `ʙᴏᴛᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`,thumbnailUrl: global.thumb}}}
 const floc1 = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: `${ucapanWaktu} ᴋᴀᴋ`,thumbnailUrl: ``}}}
 const fvn = {key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})},message: { "audioMessage": {"mimetype":"audio/ogg; codecs=opus","seconds": "240","ptt": "true"}}} 
 const ftoko = {key: {fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})}, message: {productMessage: {product: {productImage:{mimetype: `image/jpeg`, thumbnailUrl: `${global.thumb}`}, title: `ᴀɪʙᴏᴛᴢᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`, description: `${namabot}`, currencyCode: `IDR`, priceAmount1000: 1000000000, retailerId: `Ghost`, productImageCount: 1}, businessOwnerJid: `0@s.whatsapp.net`}}}
@@ -417,11 +417,11 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "FAIZALPHA| BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "120363230@newsletter",
 		},
 		externalAdReply: {  
             showAdAttribution: true,
-            title: `ᴀɪ ʙᴏᴛᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`,
+            title: `ʙᴏᴛᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`,
             body: ``,
             previewType: "VIDEO",
             thumbnailUrl: global.thumb, 
@@ -444,11 +444,11 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "FAIZALPHA | BOT WHATSAPP",
-		newsletterJid: "120363267733189530@newsletter",
+		newsletterJid: "12036326@newsletter",
 		},
 		externalAdReply: {  
             showAdAttribution: true,
-            title: `ᴀɪ ʙᴏᴛᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`,
+            title: `ʙᴏᴛᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`,
             body: ``,
             previewType: "VIDEO",
             thumbnailUrl: global.thumb, 
@@ -467,7 +467,7 @@ async function aiRep3(teks) {
         contextInfo: {
 		externalAdReply: {  
             showAdAttribution: false,
-            title: `ᴀɪ ʙᴏᴛᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`,
+            title: `ʙᴏᴛᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`,
             body: ``,
             previewType: "VIDEO",
             thumbnailUrl: global.mark, 
@@ -498,7 +498,7 @@ async function Telesticker(url) {
             data2 = await axios(`https://api.telegram.org/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/getFile?file_id=${fileId}`)
             result = {
             status: 200,
-            author: 'Fquz Realz',
+            author: 'Faiz Realz',
             url: "https://api.telegram.org/file/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/" + data2.data.result.file_path
             }
             al.result.push(result)
@@ -508,7 +508,7 @@ async function Telesticker(url) {
 }
 
 const terdaftar = () => {
-Al.sendMessage(m.chat, {text: `Silahkan Ketik *${prefix}daftar* Agar Kamu Bisa Terdaftar Di Database ${global.namabot}\n\n*Contoh :* ${prefix}daftar nama.umur`}, {quoted: m})
+Al.sendMessage(m.chat, {text: `Silahkan Ketik *${prefix}daftar* Agar Kamu Bisa Terdaftar Di Database ${global.namabot}\n\n*Contoh :* ${prefix}daftar nama.umur\n\ntitiknya ditengah nama dan umur ya`}, {quoted: m})
 }
 
 const terbanned = () => {
@@ -521,7 +521,7 @@ Al.sendMessage(from, { sticker: gundul }, { quoted: m })
 }
    
 const fiturowner = () => {
-let onlyownerku = `Fitur Khusus Owner!`
+let onlyownerku = `Fitur Nya cuman owner yg bisa pakek!`
 Al.sendMessage(from, { sticker: onlyownerku }, { quoted: m })
 }
 
@@ -700,15 +700,27 @@ let isChat = m.mtype
 
 async function loading () {
 var nedd = [
-"𓆝",
-"𓆟",
-"𓆞",
-"𓆝",
-"𓆟",
-"𓆝",
-"𓆟"
+"▰▱▱▱▱▱▱▱▱▱",
+"▰▰▱▱▱▱▱▱▱▱",
+"▰▰▰▱▱▱▱▱▱▱",
+"▰▰▰▰▱▱▱▱▱▱",
+"▰▰▰▰▰▰▱▱▱▱",
+"▰▰▰▰▰▰▰▱▱▱",
+"▰▰▰▰▰▰▰▰▱▱",
+"▰▰▰▰▰▰▰▰▰▱",
+"▰▰▰▰▰▰▰▰▰▰",
+"success",
+"▰▱▰",
+  "▱▰▱",
+  "▰▱▱",
+"▱▰▰",
+  "▰▰▱",
+  "▱▱▰",
+  "▰▱▰",
+  "▱▱▱",
+  "done bruh"
 ]
-let { key } = await Al.sendMessage(m.chat, {text: 'Sebentar'}, {quoted: m})
+let { key } = await Al.sendMessage(m.chat, {text: 'Wait wak'}, {quoted: m})
 
 for (let i = 0; i < nedd.length; i++) {
 /*await delay(20)*/
@@ -822,14 +834,14 @@ Al.sendPresenceUpdate('composing', from)
 }
         
 if (global.autoBio) {
-Al.updateProfileStatus(`${namabot} Online`).catch(_ => _)
+Al.updateProfileStatus(`${namabot} Aktif✓`).catch(_ => _)
 }
 
 if (global.antiBot && !isAdmins) {
 if (m.isBaileys && !m.fromMe == true){
 if (!isAdmins || !isBotAdmins){		  
 } else {
-m.reply(`Wih Ada Bot Lain, Grup Nya Gua Tutup Dulu Deh`)
+m.reply(`Wih Ada Bot Lain, Grup Nya Gw Tutup Dulu,Takutnya nanti di spam bot🗿`)
 return await Al.groupSettingUpdate(from, 'announcement')
   }
   }
@@ -839,17 +851,17 @@ return await Al.groupSettingUpdate(from, 'announcement')
 if (isAntiSpam) {
 if (m.isGroup && m.message && msgFilter.isFiltered(from)) {
 console.log(`[ SPAM ]`, color(moment(m.messageTimestamp * 100).format('DD/MM/YYYY HH:mm:ss'), 'yellow'), color(`${command} [${args.length}]`), 'from', color(m.pushname))
-if (!isBotAdmins) return m.reply('Yah gua bukan Admin grup :(')
+if (!isBotAdmins) return m.reply('Yeh, gw bukan Admin grup🗿 :(')
 return await Al.groupSettingUpdate(from, 'announcement')
 }
 }
 
-// AntiVirtex By AiBotzz-MD
+// AntiVirtex By Faiz
 if (isAntiVirtex) {
 if (budy.includes('ผดิทุเ้ึางผืดิทุเ') || budy.includes('ผิดุท้เึางืผิดุท้เึาง') || budy.includes('৭৭৭৭৭৭৭৭') || budy.includes('⃢ ⃢ ⃢') || budy.includes('ᡃ⃟ᡃ⃟ᡃ⃟ᡃ⃟ᡃ⃟ᡃ⃟ᡃ⃟ᡃ⃟') || budy.includes('⃟ᡃ⃟ᡃ⃟ᡃ⃟ᡃ⃟ᡃ⃟ᡃ⃟ᡃ⃟ᡃ⃟ᡃ⃟ᡃ⃟') || budy.length > 5500) {
 if (!isBotAdmins) return m.reply(`Yah kalo gua bukan Admin gua gak bisa hapus pesan nya :(`)
 if (isCreator) return m.reply(`Lu Owner gua tapi kok begitu sih?`)
-await m.reply(`*「 ANTI VIRTEX 」*\n\nDarurat Untuk Admin, Ada Yang iseng Banget Nie Ngirim Virtex\n\nLu gua *kick* dan grup ini akan *ditutup* terlebih dahulu! *For the good of the members and their safety!*`)
+await m.reply(`*「 ANTI VIRTEX 」*\n\nDarurat Untuk Admin, Ada Yang iseng Banget Nih Ngirim Virtex\n\nLu gua *kick* dan grup ini akan *ditutup* terlebih dahulu! *For the good of the members and their safety!*`)
 await Al.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.key.id, participant: m.key.participant }})
 await Al.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 await Al.groupSettingUpdate(m.chat, 'announcement')
@@ -860,9 +872,9 @@ await Al.groupSettingUpdate(m.chat, 'announcement')
 if (isAntiWame) {
 if (budy.match(`wa.me`)) {
 if (!isBotAdmins) return m.reply(`Ya kalo gua bukan Admin gua gak bisa hapus pesan nya :(`)
-if (isAdmins) return m.reply(`Kalo sesama Admin sih gua gak berani ngehapus`)
+if (isAdmins) return m.reply(`Kalo lu admin sih gw gk berani hapus wir😁`)
 if (isCreator) return m.reply(`Kamu Owner ku jadi gak masalah`)
-await m.reply(`*「 ANTI WAME 」*\n\nLink Wame Terdeteksi, Maaf pesan kamu saya hapus!!`)
+await m.reply(`*「 ANTI WAME 」*\n\nLink Wame Terdeteksi, Maaf `)
 if (m.key.fromMe) return m.reply(`Hehe`)
 await Al.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.key.id, participant: m.key.participant }})
 await Al.groupParticipantsUpdate(m.chat, [m.sender], 'delete')
@@ -1204,12 +1216,12 @@ m.reply("Emoji error, Please enter another emoji\nNOTE : Just enter 1 emoji")
 
 // AntiToxic (Kalimat tidak sopan)
 if (isAntiToxic) {
-if (budy.match('ajg|Ajg|anj|Anj|bokep|Bokep|babi|Babi|anjk|Anjk|kntl|Kntl|kontol|Kontol|bodoh|Bodoh|Tai|tai|memek|Memek|Memk|memk|Mmk|mmk|Bangsat|bangsat|Bngsat|bngsat|Bajingan|bajingan|Tolol|tolol|tlol|Tlol|Lol|lol|Bacot|bacot|Bcot|bcot|cot|Cot|goblok|Goblok|gblk|Gblk|gblok|Gblok|ngentod|Ngentod|ngentot|Ngentot|ngntod|Ngntod|ngntot|Ngntot|raimu|Raimu|peler|Peler|puki|Puki|pussy|Pussy|kuntul|Kuntul|kntul|Kntul|kintil|coli|Coli|anj|Anj|anjg|Anjg|ajg|Ajg|njing|Njing|pepek|Pepek|anying|Anying|dick|Dick|dog|Dog')) {
+if (budy.match('ajg|Ajg|anj|Anj|bokep|Bokep|babi|Babi|anjk|Anjk|kntl|Kntl|kontol|Kontol|bodoh|Bodoh|Tai|tai|memek|Memek|Memk|memk|Mmk|mmk|Bangsat|bangsat|Bngsat|bngsat|Bajingan|bajingan|Tolol|tolol|tlol|Tlol|Lol|lol|Bacot|bacot|Bcot|bcot|cot|Cot|goblok|Goblok|gblk|Gblk|gblok|Gblok|ngentod|Ngentod|ngentot|Ngentot|ngntod|Ngntod|ngntot|Ngntot|raimu|Raimu|peler|Peler|puki|Puki|pussy|Pussy|kuntul|Kuntul|kntul|Kntul|kintil|coli|Coli|anj|Anj|anjg|Anjg|ajg|Ajg|njing|Njing|pepek|Pepek|anying|Anying|dick|Dick|dog|Dog|mwemek|Mwemek|Kwontol|kwontol|khontol|mehmek|bangsad|Taek|taek|dodol|Kontel|kontel|pukie|cuki|Cukimai|Cuki|cukumai|biadape|Biadape|Biadap|Fucking|fucking|Puk|Pukie|Taie|Babie|Kontole|Begoe|gobloke|anjinge|bangsate|sokasik')) {
 if (!isBotAdmins) return m.reply(`Kalo gua bukan Admin gimana mau hapus pesan nya, wkwk :v`)
-if (isAdmins) return m.reply(`Gajadi, Kamu admin`)
+if (isAdmins) return m.reply(`Gajadi, Kamu admin🗿`)
 if (isCreator) return m.reply(`Gajadi, Kamu ownerku`)
 await Al.sendMessage(m.chat, { delete: m.key })
-await m.reply(`Jangan Toxic Woilah`)
+await m.reply('Kasar banget kau ni🙂')
 await Al.sendMessage(m.chat, {
 delete: {
 remoteJid: m.chat,
@@ -1223,14 +1235,14 @@ participant: m.key.participant
 
 // Respon (Sesuaikan saja)
 if (isResponx) {
-if (budy.match('Fai|@Faiz|@6285383056042|@6282240260658|Faiz1|6285383056042|6282199060813|Faiz|Faiz1|Faiz|Faiz| Fai')) {
+if (budy.match('Fai|@Faiz|@6285383056042|@6282240260658|Faiz1|6285383056042|6282199060813|Faiz|Faiz1|iz|Faiz|Fai')) {
 await Al.sendMessage(m.chat, {sticker: fs.readFileSync('./media/sticker/bejir.webp')}, {quoted: m})
 }
 }
 
 // AntiPromo (Promosi)
-if (isAntiPromo) {
-if (budy.match('1gb|1Gb|1GB|2gb|2Gb|2GB|panel|Panel|jasa|Jasa|open|Open|need|Need|promo|Promo|1k|2k|3k|4k|5k|6k|7k|8k|9k|10k|15k|20k|diskon|Diskon|sung pm|Sung pm|suntik|ready|Ready|minat|Minat|unchek|Unchek|murban|Murban|unli|Unli|admin panel|Admin panel|Admin Panel|keuntungan|Keuntungan|resseler|Resseler|permanen|Permanen|permanent|Permanent|jual|Jaul25k|30k|40k|50k|60k|100k|vps|Vps|VPS')) {
+     if (isAntiPromo) {
+if (budy.match('1gb|1Gb|1GB|2gb|2Gb|2GB|panel|Panel|jasa|Jasa|open|Open|need|Nee|1k|2k|3k|4k|5k|6k|7k|8k|9k|10k|15k|20k|diskon|Diskon|sung pm|Sung pm|suntik|ready|Ready|minat|Minat|unchek|Unchek|murban|Murban|unli|Unli|admin panel|Admin panel|Admin Panel|keuntungan|Keuntungan|resseler|Resseler|permanen|Permanen|permanent|Permanent|jual|Jaul25k|30k|40k|50k|60k|100k|vps|Vps|VPS')) {
 if (!isBotAdmins) return m.reply(`Kalo gua bukan Admin gimana mau hapus pesan nya, wkwk :v`)
 if (isAdmins) return m.reply(`Gajadi, Kamu admin`)
 if (isCreator) return m.reply(`Gajadi, Kamu ownerku`)
@@ -1257,7 +1269,7 @@ let isgclink = isLinkThisGc.test(m.text)
 if (isgclink) return m.reply(`Gak jadi deh, Karna itu adalah Link grup ini sendiri`)
 if (isAdmins) return m.reply(`Wah kalau sesama Admin sih saya gak berani ngehapus pesan nya`)
 if (isCreator) return m.reply(`Kamu Owner ku jadi gak masalah`)
-await m.reply(`*「 ANTI LINK 」*\n\nLink Terdeteksi, Maaf pesan kamu saya hapus!!`)
+await m.reply(`*「 ANTI LINK 」*\n\nLink Dectector, Maaf pesan kamu saya hapus!!`)
 if (m.key.fromMe) return m.reply(`Hehe`)
 await Al.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.key.id, participant: m.key.participant }})
 await Al.groupParticipantsUpdate(m.chat, [m.sender], 'delete')
@@ -1280,7 +1292,7 @@ stikdel(from)
 }
 
 if (!isGc && !isCreator && !m.fromMe && budy) {
-Al.sendMessage('6289654057716@s.whatsapp.net', {text: `*WhatsApp Private Chat*\n\n*From :* ${m.sender.split("@")[0]}\n*Chat :* ${budy}`}, {quoted: fkontak})
+Al.sendMessage('6285383056042@s.whatsapp.net', {text: `*WhatsApp Private Chat*\n\n*From :* ${m.sender.split("@")[0]}\n*Chat :* ${budy}`}, {quoted: fkontak})
 }
 
 
@@ -1318,7 +1330,7 @@ delete tebakanime[from];
 if ((from in tebaklagu)) {
 let { soal, jawaban, hadiah, waktu } = tebaklagu[from]
 if (body.toLowerCase().includes(jawaban)) {
-await m.reply(`Selamat Jawaban Kamu Benar🥳\n\nJawaban: ${jawaban}\nHadiah: $${hadiah} balance`);
+await m.reply(`Selamat Jawaban Kamu Benar🥳\n\nJawaban: ${jawaban}\nHadiah: $${hadiah} limit`);
 giveLimit([m.sender], 10, limit)
 clearTimeout(waktu);
 delete tebaklagu[from];
@@ -1791,8 +1803,8 @@ if (!isRegistered) return terdaftar()
 if (isBan) return terbanned()
 let gif = `${global.gifin}` 
 let aAl = `
-Hai *${pushname}* 👋
-${sopanDong} Kak 😁
+_Hello *${pushname}* 👋
+_${sopanDong} 
 
 ┈───────────────────────᳃
             ཊཏ    *I N F O  B O T*    ཊཏ
@@ -1897,7 +1909,7 @@ let msg = generateWAMessageFromContent(from, {
           footer: proto.Message.InteractiveMessage.Footer.create({
             text: 'Ai Botz Multi Device'
           }),
-          header: proto.Message.InteractiveMessage.Header.create({
+          header: proto.Message.InteractiveMessageeader.create({
             title: aAl,
             subtitle: '',
             hasMediaAttachment: false
@@ -1906,11 +1918,12 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": "{\"title\":\"VIEW RULES\",\"sections\":[{\"title\":\"RULES AIBOTZZ MULTI DEVICE\",\"highlight_label\":\"Rules Nya\",\"rows\":[{\"header\":\"📓 Dilarang Spam\",\"title\":\"• Agar Tidak Di Banned\",\"description\":\"Dan Tidak Di Blokir\",\"id\":\".play\"},{\"header\":\"📘 Dilarang Menelpon\",\"title\":\"• Biasa Nya Sering Terjadi\",\"description\":\"Error Jika Di Telpon\",\"id\":\".play\"},{\"header\":\"📘 Dilarang Menculik\",\"title\":\"• Lu Kalo Nyulik Gua\",\"description\":\"Siap Siap Kena Banned\",\"id\":\".play\"}]}]}"
+                "buttonParamsJson": "{\"title\":\"VIEW RULES\",\"sections\":[{\"title\":\"RULES AI BOTZ MULI DEVICE BY FA I Z\",\"highlight_label\":\"Rules Nya\",\"rows\":[{\"header\":\"📓 Dilarang Spam\",\"title\":\"• Agar Tidak Di Banned\",\"description\":\"Dan Tidak Di Blokir\",\"id\":\".play\"},{\"header\":\"📘 Dilarang Menelpon\",\"title\":\"• Biasa Nya Sering Terjadi\",\"description\":\"Error Jika Di Telpon\",\"id\":\".play\"},{\"header\":\"📘 Bebas nyulik\",\"title\":\"• Pm owner dulu, dan join gc owner\",\"description\":\"kalo g, Siap Siap Kena Banned\",\"id\":\".play\"}]}]}"
               },
               {
                  "name": "cta_url",
                  "buttonParamsJson": "{\"display_text\":\"CHAT OWNER\",\"url\":\"https://wa.me/+6285383056042?text=Halo+Bang\",\"merchant_url\":\"https://www.google.com\"}"
+
               },
               {
                 "name": "quick_reply",
@@ -1952,14 +1965,14 @@ const uploadFile = { upload: Al.waUploadToServer };
         const productMessage = { productMessage: productData };
         var response = await generateWAMessageFromContent(
           from,
-          proto.Message.fromObject(productMessage),
-          m.quoted && m.quoted.fromMe
-            ? { contextInfo: { ...m.msg.contextInfo } }
-            : { quoted: m },
-        );
-        await Al.relayMessage(from, response.message, {
-          messageId: response.key.id,
-        });
+  proto.Message.fromObject(productMessage),
+    m.quoted && m.quoted.fromMe
+      ? { contextInfo: { ...m.msg.contextInfo } }
+      : { quoted: m },
+  );
+  await Al.relayMessage(from, response.message, {
+    messageId: response.key.id,
+  });
         await Al.sendMessage(m.chat, {video: {url: gif}, gifPlayback: true, caption: `┈───────────────────────᳃\n            ཊཏ    *I N F O  B O T*    ཊཏ\n┈───────────────────────᳃\n     ⊰•  *ɴᴀᴍᴀʙᴏᴛ :* ${namabot}\n     ⊰•  *ᴄʀᴇᴀᴛᴏʀ :* ${namaowner}\n     ⊰•  *ʀᴜɴᴛɪᴍᴇ :* ${runtime(process.uptime())}\n     ⊰•  *ᴅᴀᴛᴇ :* ${tanggal}\n     ⊰•  *ᴛɪᴍᴇ :* ${jam}\n\n┈───────────────────────᳃\n            ཊཏ    *M E N U B O T*    ཊཏ\n┈───────────────────────᳃\n     ィ•  ᴀʟʟᴍᴇɴᴜ\n     ィ•  ᴍᴀɪɴᴍᴇɴᴜ\n     ィ•  ɢʀᴏᴜᴘᴍᴇɴᴜ\n     ィ•  sᴛᴏʀᴇᴍᴇɴᴜ\n     ィ•  ᴏᴡɴᴇʀᴍᴇɴᴜ\n     ィ•  ᴘʀɪᴠᴀᴛᴇᴍᴇɴᴜ\n     ィ•  sᴏᴜɴᴅᴍᴇɴᴜ\n     ィ•  ᴍᴀᴋᴇʀᴍᴇɴᴜ\n┈───────────────────────᳃\n             ཊཏ    *A I B O T Z Z*    ཊཏ\n┈───────────────────────᳃\n\nⓘ Please Don't Call & Spam Me`}, { quoted: fkontak})
   }
 }
@@ -2018,7 +2031,7 @@ let capt = `
 ⌬︱ *ᴘʟᴀᴛғᴏʀᴍ* : Vivo Y21
 ⌬︱ *ʟɪʙʀᴀʀʏ* : Ram 5(128GB)
 ⌬︱ *ᴘʀᴇғɪx* : Multi Prefix
-⌬︱ *ᴠᴇʀꜱɪ* : 1.2 Fix
+⌬︱ *ᴠᴇʀꜱɪ* : 1.3 Fix Lagi
 ╰──────────────────────┈
 
   *ɴ ᴏ ᴛ ᴇ :*
@@ -3054,7 +3067,7 @@ let capt = `
  ╵
  
 © Script Recode by *FaizBotz-MD*
-• Credit | Julfaiz | ${tahun}`
+• Credit | Faiz | ${tahun}`
 if (typeallmenu === 'v1') {
 await Al.sendMessage(m.chat, {video: {url: gif}, gifPlayback: true, caption: capt,
 contextInfo: {
@@ -3062,7 +3075,7 @@ forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 	newsletterName: "VIEW CHANNEL",
-		newsletterJid: "120363267@newsletter",
+		newsletterJid: "https://wa.me/message/46GM3TRRDGE2C1",
 		},
 		externalAdReply: {  
 title: `ᴀɪ ʙᴏᴛᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`, 
@@ -3953,7 +3966,7 @@ break
           messageId: response.key.id,
         });
         await Al.sendMessage(from, {text:
-            `*SEDIKIT INFO*\n\n*Creator :* Sanjaya\n*Dibuat :* 24 Mar, 2024\n*Total Fitur :* 1200+ Command\n*Harga :* Dijual\n\nMau Script Di Atas? Chat Owner Gw Aja Langsung\n\n© ${global.wm} | ${tahun}`}, {quoted: m})
+            `*SEDIKIT INFO*\n\n*Creator :* Faiz\n*Dibuat :* 24 Mar, 2024\n*Total Fitur :* 1200+ Command\n*Harga :* Dijual\n\nMau Script Di Atas? Chat Owner Gw Aja Langsung\n\n© ${global.wm} | ${tahun}`}, {quoted: m})
         break;
 //========================
 case 'mainmenu':{
@@ -4208,7 +4221,7 @@ let s = `
  │ ィ•  ${prefix}handhold
  ╵`
 await Al.sendMessage(m.chat, {document: fs.readFileSync("./package.json"),
-            fileName: `ᴀɪʙᴏᴛᴢᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`,
+            fileName: `ʙᴏᴛᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`,
             mimetype: "application/pdf",
             fileLength: 99999999,
             pageCount: 2024, caption: s,
@@ -4514,7 +4527,8 @@ let cv =`
  │ ィ•  ${prefix}txt2video
  ╵`
 await Al.sendMessage(m.chat, {document: fs.readFileSync("./package.json"),
-            fileName: `ᴀɪʙᴏᴛᴢᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`,
+            fileName: `ʙᴏᴛᴢᴢ
+            ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`,
             mimetype: "application/pdf",
             fileLength: 99999999,
             pageCount: 2024, caption: cv,
@@ -4536,7 +4550,7 @@ renderLargerThumbnail: true
     await Al.sendMessage(m.chat, { react: { text: "☑️",key: m.key,}}) 
 }
 break
-case 'jadibotmenu':{
+case 'jadibotmenu': case 'Jadibot':{
 if (!isRegistered) return terdaftar()
 if (isBan) return terbanned()
 await Al.sendMessage(m.chat, { react: { text: "⏱️",key: m.key,}}) 
@@ -4549,7 +4563,7 @@ let bot = `
  │ ィ•  ${prefix}credit
  ╵`
 await Al.sendMessage(m.chat, {document: fs.readFileSync("./package.json"),
-            fileName: `ᴀɪʙᴏᴛᴢᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`,
+            fileName: `ᴀɪʙlᴏᴛᴢᴢ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ`,
             mimetype: "application/pdf",
             fileLength: 99999999,
             pageCount: 2024, caption: bot,
@@ -4572,7 +4586,7 @@ renderLargerThumbnail: true
 }
 break
 
-case 'soundmenu':{
+case 'soundmenu': case 'menusound':{
 if (!isRegistered) return terdaftar()
 if (isBan) return terbanned()
 await Al.sendMessage(m.chat, { react: { text: "⏱️",key: m.key,}}) 
@@ -5352,16 +5366,17 @@ break
 case 'intro':{
 if (!isRegistered) return terdaftar()
 if (isBan) return terbanned()
-var intro =`0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
+var intro =`Intro‹•══════════════♡᭄
 │       *「 Kartu Intro 」*
 │ *Nama     :* 
 │ *Gender   :* 
-│ *Umur      :* 
+│ *Umur     :* 
 │ *Hobby    :* 
-│ *Kelas      :* 
-│ *Asal         :* 
+│ *Kelas    :* 
+│ *Asal     :* 
 │ *Agama    :* 
-|  *Status     :* 
+| *Status   :* 
+| *AsGrup   :*
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 `
 Al.sendMessage(m.chat, {text: intro }, {quoted: floc})
@@ -5376,9 +5391,9 @@ var capt = `*AiBotzz-MD* Information
 
 *• Name :* ${namabot}
 *• Owner :* ${namaowner}
-*• Versi :* 1.1
-*• Penerus :* Jayy
-*• YT :* https://www.youtube.com/@SanjayaAds
+*• Versi :* 1.3 udh benerin nih
+*• Penerus :* Faiz
+*• YT :* https://www.youtube.com/@Faiz1123
 `
 await Al.sendMessage(m.chat, {
 text: capt,
@@ -5459,10 +5474,13 @@ renderLargerThumbnail: true
 break
 //========================
 case 'tes': 
-case 'test':{
+case 'test':
+case 'cek':
+  case 'cek123':
+  case 'Tess':{
 if (!isRegistered) return terdaftar()
 if (isBan) return terbanned()
-var teks = `${namabot} Aktif kak\nSilahkan ketikan *.menu all*`
+var teks = `> bot ${namabot} on,kalo g jawab berarti off\nSilahkan ketikan *.menu all atau allmenu untuk melihat menu*`
  Al.relayMessage(m.chat,  {
      requestPaymentMessage: {
            currencyCodeIso4217: 'IDR',
@@ -5479,12 +5497,14 @@ var teks = `${namabot} Aktif kak\nSilahkan ketikan *.menu all*`
                                                                  break
 //========================
 case 'play': 
-case 'ytplay':{
+case 'ytplay':
+  case 'youtubeplay':
+    case 'yutubplay':{
 if (isLimit(m.sender, isPremium, isCreator, limitCount, limit)) return m.reply(`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 if (isLimit(m.sender, isPremium, isCreator, limitCount, limit)) return m.reply(`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 if (!isRegistered) return terdaftar()
 if (isBan) return terbanned()
-if (!text) return m.reply(`Example : ${prefix + command} Happy Person`)
+if (!text) return m.reply(`Contoh : ${prefix + command} Alan walker`)
 await Al.sendMessage(m.chat, { react: { text: "⏳",key: m.key,}})   
 let search = await yts(`${text}`)
 
@@ -5516,12 +5536,12 @@ await Al.sendMessage(m.chat, { react: { text: "⏱️",key: m.key,}
   })   
 let anu = await pinterest(text)
 let result = anu[Math.floor(Math.random() * anu.length)]
-Al.sendMessage(m.chat, { image: { url: result }, caption: 'Done kak'}, { quoted: m })
+Al.sendMessage(m.chat, { image: { url: result }, caption: 'Done'}, { quoted: m })
 }
 limitAdd(m.sender, limit)
 break
 //========================
-case 'yts': case 'ytsearch':{
+case 'yts': case 'ytsearch': case 'youtubesearch':{
 if (isLimit(m.sender, isPremium, isCreator, limitCount, limit)) return m.reply(`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 if (!text) m.reply(`Gunakan dengan cara ${prefix+command} *text*\n\n_Contoh_\n\n${prefix+command} Cara membuat bot WhatsApp`)
 let reso = await yts(`${text}`)
@@ -5530,7 +5550,7 @@ var tbuff = await getBuffer(aramat[0].image)
 let teks = aramat.map(v => {
 switch (v.type) {
 case 'video': return `
-🀄 Title : *${v.title}* 
+⌨️ Title : *${v.title}* 
 ⏳ Durasi: ${v.timestamp}
 🥀 Diupload ${v.ago}
 📈 Views : ${v.views}
@@ -5665,7 +5685,7 @@ Al.sendMessage(m.chat, {audio, mimetype:'audio/mpeg', ptt: true}, { quoted : m }
 }
 limitAdd(m.sender, limit)
 break
-case 'toaudio': case 'tomp3':{
+case 'toaudio': case 'tomp3': case 'tosound':{
 if (!isRegistered) return terdaftar()
 if (isBan) return terbanned()
 if (isLimit(m.sender, isPremium, isCreator, limitCount, limit)) return m.reply(`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
@@ -5775,7 +5795,7 @@ m.reply(teks)
 limitAdd(m.sender, limit)
 break
 case 'ai': case 'openai': {
-                if (!q) return m.reply(`*Mau Nanya Sapa.?*`)
+                if (!q) return m.reply(`*Mau Nanya apa.?*`)
                 m.reply('_Loading..._')
                   var jay = await fetchJson(`https://aemt.me/openai?text=${q}`)
                   var jaya = jay.result
@@ -5812,7 +5832,7 @@ case 'verify':
 case 'register':
 const isRegis = checkRegisteredUser(m.sender)
 if (isRegis) return m.reply('Malas, Kamu Udah Terdaftar Soalnya')
-if (!q.includes('.')) return m.reply('*Format Salah! Gunakan Dengan*\n\n*Contoh :* .daftar Sanjaya.16')
+if (!q.includes('.')) return m.reply('*Format Salah! Gunakan Dengan*\n\n*Contoh :* .daftar Faiz.15')
 const namaUser = q.substring(0, q.indexOf('.') - 0)
 const umurUser = q.substring(q.lastIndexOf('.') + 1)
 const serialUser = createSerial(20)
@@ -5824,7 +5844,7 @@ let mzd = `*DAFTAR BERHASIL*\n\n⎋ Nama : ${namaUser}\n⎋ Umur : ${umurUser}\n
 let veri = m.sender
 if (!m.isGroup) {
 addRegisteredUser(m.sender, namaUser, umurUser, serialUser)
-Al.sendMessage(from, {image: ppnyauser, caption: mzd, fileLength: 9999778866, contextInfo: {
+Al.sendMessage(from, {image: ppnyauser, caption: mzd, fileLength: 9999778887, contextInfo: {
 externalAdReply: {
 showAdAttribution: true, 
 mediaType: 1, 
@@ -5868,7 +5888,7 @@ teks = `「 Group Create Fitur 」
 ༫ Owner Group : @${cret.owner.split("@")[0]}
 ༫ Creation Group : ${moment(cret.creation * 1000).tz("Asia/Jakarta").format("DD/MM/YYYY HH:mm:ss")} WIB
 
-⌞ ʟɪɴᴋ ɢʀᴏᴜᴘ ⌝
+⌞ ʟɪɴᴋ ɢʀᴜᴘ ⌝
 https://chat.whatsapp.com/${responsee}
 `
 Al.sendMessage(m.chat, {text: teks,mentions: parseMention(teks)}, {quoted: m})
@@ -5905,7 +5925,10 @@ if (!isCreator) return m.reply('Lu Siapa Kocak?')
                  Al.sendTextWithMentions(m.chat, teks, m)
              }
              break
-             case 'delsampah':{
+             case 'delsampah':
+               case 'ds':
+  case 'dsampah':
+  case 'dels':{
 if (!isCreator) return m.reply(mess.OnlyOwner)
 let directoryPath = path.join('./tmp') //&& './media') //path.join();
 fs.readdir(directoryPath, async function (err, files) {
@@ -6076,8 +6099,7 @@ if (!isAdmins) return m.reply('Fitur Khusus admin!')
 if (!isBotAdmins) return m.reply("Bot bukan admin")
 Al.groupSettingUpdate(m.chat, 'not_announcement')
 const textOpen = await getTextSetOpen(m.chat, set_open);
-m.reply(textOpen || `Sukses mengizinkan Semua peserta dapat mengirim pesan ke grup ini
-
+m.reply(textOpen || `Group udh dibuka,sekarang lu bisa chat lagi
 *GRUB :* ${groupName}`)
 }
 break
@@ -6208,7 +6230,7 @@ break
 case 'antilink': {
 if (!m.isGroup) return m.reply('Fitur Khusus Group!')
 if (!isAdmins) return m.reply('Fitur Khusus Admin!')
-if (!isBotAdmins) return m.reply("Saya bukan Admin grup!")
+if (!isBotAdmins) return m.reply("Gw bukan Admin grup co🗿")
 if (args[0] === "on") {
 if (isAntiLink) return m.reply(`_Kan udah aktif sebelumnya_`)
 antilink.push(m.chat)
@@ -6233,7 +6255,7 @@ if (!isAdmins) return m.reply('Fitur Khusus admin!')
 if (!isBotAdmins) return m.reply("Bot bukan admin")
 Al.groupSettingUpdate(m.chat, 'announcement')
 const textClose = await getTextSetClose(m.chat, set_close);
-m.reply(textClose || `Sukses mengizinkan Hanya admin yang dapat mengirim pesan ke grup ini
+m.reply(textClose || `Group ditutup,cuman admin yg bisa chat coy
 
 *GRUB :* ${groupName}`)
 }
@@ -6255,7 +6277,7 @@ m.reply(`Sorry this video can't be download`);
 limitAdd(m.sender, limit)
 break
 case'ttsearch':{
-if (!isCreator&&!isPremium) return m.reply('Lu Bukan User Premium')
+if (!isCreator&&!isPremium) return m.reply('Lu Bukan User Premium bego')
 if (!text) return m.reply(`Gunakan dengan cara ${prefix+command} *query*\n\n_Contoh_\n\n${prefix+command} jj epep`)
 Al.sendMessage(m.chat, { react: { text: `⏱️`, key: m.key }})
 try{
@@ -6972,12 +6994,14 @@ owner.splice(unp, 1)
 fs.writeFileSync('./database/owner.json', JSON.stringify(owner))
 m.reply(`Sukses Menghapus 1 List Owner!\n*Nomor :* ${ya}`)
 break
-case'addprem':{
+case'addprem':
+  case 'addpremium':
+  case 'premiumadd': {
 if (!isCreator) return m.reply('Gamau')
 const swn = args.join(" ")
 const pcknm = swn.split("|")[0];
 const atnm = swn.split("|")[1];
-if (!pcknm) return m.reply(`Penggunaan :\n*${prefix}addprem* @tag|waktu\n*${prefix}addprem* nomor|waktu\n\nContoh : ${prefix+command} @tag|30d`)
+if (!pcknm) return m.reply(`Penggunaan :\n*${prefix}addprem* @tag|waktu\n*${prefix+command} nomor|waktu\n\nContoh : ${prefix+command} 6285383056042|30d`)
 if (!atnm) return m.reply(`Mau yang berapa hari?`)
 let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 if (users) {
@@ -7069,7 +7093,7 @@ if (!q) return m.reply(`mau nanya apa`)
 //if (m.isGroup) return m.reply('Fitur Tidak Dapat Digunakan Untuk Group!')
 const luffybeban = await fetchJson(`https://api-charaai.vercel.app/charaai?chara=Luffy&text=${q}`)
 Al.sendMessage(from, { contextInfo: { externalAdReply: { showAdAttribution: true,
-title: `Jayy? , AiBotzz-MD`,body:`⌜ Bot MD ⌟`,previewType:"PHOTO",thumbnailUrl: global.thumb,sourceUrl: `${sgc}`,}
+title: `Faiz? , AiBotzz-MD`,body:`⌜ Bot MD ⌟`,previewType:"PHOTO",thumbnailUrl: global.thumb,sourceUrl: `${sgc}`,}
 }, text: luffybeban}, { quoted: m })
 }
 limitAdd(m.sender, limit)
@@ -7163,7 +7187,7 @@ if (isBan) return terbanned()
                         //let img = await q.download()
                             let img = await Al.downloadAndSaveMediaMessage(quoted, makeid(5))
                                 if (!img) return m.reply('Reply a sticker!')
-                                    var stiker = await addExifAvatar(img, `𝐒𝐭𝐢𝐜𝐤𝐞𝐫 𝐀𝐯𝐚𝐭𝐚𝐫 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 𝐈𝐭𝐬𝐯𝐢𝐧©𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, `${pushname}`)
+                                    var stiker = await addExifAvatar(img, `𝐒𝐭𝐢𝐜𝐤𝐞𝐫 𝐀𝐯𝐚𝐭𝐚𝐫 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 Faiz`, `${pushname}`)
                                       } catch (e) {
                                           console.error(e)
                                               if (Buffer.isBuffer(e)) stiker = e
@@ -7546,7 +7570,7 @@ ctf = `*DATA AKUN SERVER PANNEL ANDA*
 ┣⎙─➤ Login : ${domain}
 ┣⎙─➤ Server : ${namaowner}
 ┗⬣
-
+we
 _NOTE_
 *SIMPAN DATA PANEL ANDA KARENA OWNER HANYA SEKALI MENGIRIMKAN DATA & JIKA KEHILANGAN ITU BUKAN TANGGUNG OWNER*`
 Al.sendMessage(u, {text: `${ctf}`}, {quoted:m})
@@ -9803,22 +9827,22 @@ Al_dev = await getBuffer(`https://github.com/DGXeon/Tiktokmusic-API/raw/master/t
 await Al.sendMessage(m.chat, { audio: Al_dev, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 break
 
-case 'enable': case 'disable':{
+case 'pengaturan': case 'setting':{
 let db = `
-┌「 _*⩽ GROUP ONLY ⩾*_
-⩽⩾ antilink ${isAntiLink ? '☑️' : '✖️'}
-⩽⩾ antipromo ${isAntiPromo ? '☑️' : '✖️'}
-⩽⩾ antitoxic ${isAntiToxic ? '☑️' : '✖️'}
-⩽⩾ autodlgc ${isAutoDlGc ? '☑️' : '✖️'}
-⩽⩾ autosticker ${isAutoStiker ? '☑️' : '✖️'}
-⩽⩾ mute ${isMute ? '☑️' : '✖️'}
-⩽⩾ welcome ${isWelcome ? '☑️' : '✖️'}
-⩽⩾ left ${isLeft ? '☑️' : '✖️'}
+┌「 _*⩽ Setting list group ⩾*_
+⩽⩾ antilink ${isAntiLink ? ':on' : ':off'}
+⩽⩾ antipromo ${isAntiPromo ? ':on' : ':off'}
+⩽⩾ antitoxic ${isAntiToxic ? ':on' : ':off'}
+⩽⩾ autodlgc ${isAutoDlGc ? ':on' : ':Off'}
+⩽⩾ autosticker ${isAutoStiker ? ':on' : ':off'}
+⩽⩾ mute ${isMute ? ':on' : ':off'}
+⩽⩾ welcome ${isWelcome ? ':on' : ':off'}
+⩽⩾ left ${isLeft ? ':on' : ':off'}
 ╰──  
 
 *NOTE*
-☑️ Status On
-✖️ Status Off
+on : Status aktif
+off : Status tidak aktif
 `
 aiRep2(`${db}`)
 }
@@ -9829,7 +9853,9 @@ m.reply(jdb)
 }
 break
 
-case 'setmenu':{
+case 'setmenu':
+  case 'menuset':
+  case 'gantimenu':{
                if (!isCreator) return m.reply('Fitur Khusus Owner')
                if (!text) return m.reply(`Silahkan Pilih Set Menu Anda (v1, v2, v3, v4, v5, v6)\n\n*Example* ${prefix + command} v1`)
                if (text.startsWith('v')) {
@@ -9840,7 +9866,11 @@ case 'setmenu':{
                }
             }
             break
-case 'setallmenu':{
+case 'setallmenu':
+  case 'setmenuall':
+  case 'allmenuset':
+  case 'menuallset':
+  case 'gantiallmenu':{
                if (!isCreator) return m.reply('Fitur Khusus Owner')
                if (!text) return m.reply(`Silahkan Pilih Set All Menu Anda (v1, v2, v3, v4, v5, v6)\n\n*Example* ${prefix + command} v1`)
                if (text.startsWith('v')) {
@@ -12711,7 +12741,7 @@ case 'qcstiker': {
 if (isLimit(m.sender, isPremium, isCreator, limitCount, limit)) return m.reply(`Limit kamu sudah habis, Silahkan ketik ${prefix}limit untuk mengecek limit kamu`)
 if (!isRegistered) return terdaftar()
 if (isBan) return terbanned()
-if (!q) return m.reply(`*Contoh :* ${prefix + command} white Hallo Jay\n\n*LIST WARNA YANG ADA*\n\n• Pink\n• Blue\n• Red\n• Green\n• Yellow\n• Purple\n• Darkblue\n• Lightblue\n• Ash\n• Orange\n• black\n• White\n• Teal\n• Lightpink\n• Chocolate\n• Salmon\n• Magenta\n• Tan\n• Wheat\n• Deeppink\n• Fire\n• Skyblue\n• Safron\n• Brightskyblue\n• Hotpink\n• Lightskyblue\n• Seagreen\n• Darkred\n• Orangered\n• Cyan\n• Violet\n• Mossgreen\n• Darkgreen\n• Navyblue\n• Darkorange\n• Darkpurple\n• Fuchsia\n• Darkmagenta\n• Darkgray\n• Peachpuff\n• Plackishgreen\n• Darkishred\n• Goldenrod\n• Darkishgray\n• Darkishpurple\n• Gold\n• Silver`)
+if (!q) return m.reply(`*Contoh :* ${prefix + command} white Hallo Faiz\n\n*LIST WARNA YANG ADA*\n\n• Pink\n• Blue\n• Red\n• Green\n• Yellow\n• Purple\n• Darkblue\n• Lightblue\n• Ash\n• Orange\n• black\n• White\n• Teal\n• Lightpink\n• Chocolate\n• Salmon\n• Magenta\n• Tan\n• Wheat\n• Deeppink\n• Fire\n• Skyblue\n• Safron\n• Brightskyblue\n• Hotpink\n• Lightskyblue\n• Seagreen\n• Darkred\n• Orangered\n• Cyan\n• Violet\n• Mossgreen\n• Darkgreen\n• Navyblue\n• Darkorange\n• Darkpurple\n• Fuchsia\n• Darkmagenta\n• Darkgray\n• Peachpuff\n• Plackishgreen\n• Darkishred\n• Goldenrod\n• Darkishgray\n• Darkishpurple\n• Gold\n• Silver`)
 if (text.length > 100) return m.reply(`Max 100 character.`)
 await Al.sendMessage(m.chat, { react: { text: "⏱️",key: m.key,}})   
 let [color, ...message] = text.split(' ');
@@ -13699,7 +13729,7 @@ case 'lapor':{
 if (!isRegistered) return terdaftar()
 if (isBan) return terbanned()
 if(!text) return m.reply(`*Contoh :*\n${prefix+command} Ada bug Fitur polling`)
-Al.sendMessage('6289654057716@s.whatsapp.net', { text: `Hai Ownerku, Ada laporan nie dari seseorang\n\n*Laporan :* ${text}\n*Dari :* @${m.sender.split('@')[0]}`, mentions: [m.sender]}, { quoted: fkontak})
+Al.sendMessage('6285383056042@s.whatsapp.net', { text: `Hai Ownerku, Ada laporan nie dari seseorang\n\n*Laporan :* ${text}\n*Dari :* @${m.sender.split('@')[0]}`, mentions: [m.sender]}, { quoted: fkontak})
 m.reply('Laporan udah dikirim ke pengembang\nScript ini, Tunggu dia bales/chat yaa')
 }
 break
@@ -13711,7 +13741,7 @@ case 'req':{
 if (!isRegistered) return terdaftar()
 if (isBan) return terbanned()
 if(!text) return m.reply(`*Contoh :*\n${prefix+command} Fitur Spotify`)
-Al.sendMessage('6289654057716@s.whatsapp.net', { text: `Hai Ownerku, Ada yang request nie dari seseorang\n\n*Request :* ${text}\n*Dari :* @${m.sender.split('@')[0]}`, mentions: [m.sender]}, { quoted: fkontak})
+Al.sendMessage('6285383056042@s.whatsapp.net', { text: `Hai Ownerku, Ada yang request nie dari seseorang\n\n*Request :* ${text}\n*Dari :* @${m.sender.split('@')[0]}`, mentions: [m.sender]}, { quoted: fkontak})
 m.reply('Request udah dikirim ke pengembang\nScript ini, Tunggu dia bales/chat yaa.')
 }
 break
@@ -13722,7 +13752,7 @@ if (!isCreator) return m.reply('Fitur Khusus Owner!')
 if (isBan) return terbanned()
 if (!q) return m.reply(`*Contoh :*\n${prefix+command} Update Script *${namabot}* v5`)
 let tek = m.quoted ? quoted.text : (text ? text : "")
-Al.sendMessage('120363250058335630@g.us', { text: `*BROADCAST GRUB*\n\n${tek}`, mentions: participants.map(a => a.id)}, {}, {quoted: fkontak })
+Al.sendMessage('120363289648375620@g.us', { text: `*BROADCAST GRUB*\n\n${tek}`, mentions: participants.map(a => a.id)}, {}, {quoted: fkontak })
 m.reply('Broadcast ke grup kamu sukses terkirim!')
 }
 break
@@ -13772,7 +13802,7 @@ if (!isRegistered) return terdaftar()
 if (isBan) return terbanned()
 if (!m.isGroup) return m.reply('Fitur Khusus Group!')
 if (!isBotAdmins) return m.reply('Saya bukan Admin grup!')
-if (!text) return m.reply(`Masukan Nomor yang terdaftar diwhatsapp yang mau diundang\n\n*Example :*\n*${prefix + command}* 6283831409855`)
+if (!text) return m.reply(`Masukan Nomor yang terdaftar diwhatsapp yang mau diundang\n\n*Example :*\n*${prefix + command}* 6285383056042`)
 if (text.includes('+')) return m.reply(`Masukan nomor tanpa *+*`)
 if (isNaN(text)) return m.reply(`Hanya Angka! dan masukan kode (nomor) negara tanpa spasi.`)
 let group = m.chat
@@ -14748,9 +14778,12 @@ m.reply(`*Successfully sent Bug To ${xeongc} Please pause for 3 minutes*`)
 }
 break
 //========================
-case 'trollygcbug' :  {
+case 'trollygcbug' :
+  case 'trollgroup':
+  case 'grouptroll':
+  case 'gruptroll': {
 if (!isCreator) return m.reply('Fitur Khusus Owner!')
-if (!args[0]) return m.reply(`Use ${prefix+command} link\nExample ${prefix+command} https://chat.whatsapp.com/JVKKTg3rmmiKEL3MQBVplg`)
+if (!args[0]) return m.reply(`Use ${prefix+command} link\nExample ${prefix+command} https://chat.whatsapp.com/Ihtr1Erg0rFL6pIH6Df2bO`)
 await loading()
 let result = args[0].split('https://chat.whatsapp.com/')[1]
 let xeongc = await Al.groupAcceptInvite(result)
@@ -17553,7 +17586,7 @@ break
 case 'peruntungan': {
 if (!isRegistered) return terdaftar()
 if (isBan) return terbanned()
- if (!text) return m.reply(`Example : ${prefix + command} Aruna, 7, 7, 2005, 2022\n\nNote : ${prefix + command} Nama, tanggal lahir, bulan lahir, tahun lahir, untuk tahun`)
+ if (!text) return m.reply(`Example : ${prefix + command} Faiz, 7, 7, 2005, 2022\n\nNote : ${prefix + command} Nama, tanggal lahir, bulan lahir, tahun lahir, untuk tahun`)
  let [nama, tgl, bln, thn, untuk] = text.split`,`
  let anu = await primbon.ramalan_peruntungan(nama, tgl, bln, thn, untuk)
  if (anu.status == false) return m.reply(anu.message)
